@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Simple version - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\REMAIN~1\AppData\Local\Temp\RSPA847.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Simple version.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"F:\git code\Simple version\main.c"
+]
+Creating command line "cl.exe @C:\Users\REMAIN~1\AppData\Local\Temp\RSPA847.tmp" 
+<h3>Output Window</h3>
+Compiling...
+main.c
+F:\git code\Simple version\main.c(41) : warning C4244: '=' : conversion from 'double ' to 'int ', possible loss of data
+F:\git code\Simple version\main.c(186) : warning C4018: '==' : signed/unsigned mismatch
+F:\git code\Simple version\main.c(188) : warning C4018: '==' : signed/unsigned mismatch
+
+
+
+<h3>Results</h3>
+main.obj - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
